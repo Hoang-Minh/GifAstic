@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Giphy Search</title>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400i" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+<body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/app.js"></script>
+  
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="display-3 text-center">Giphy Topic Search</h1>
+      <p class="lead text-center moviebutton"></p>
+      <hr class="my-4">
+      <form>
+        <div class="form-group">
+          <label for="giphy-input">Giphy Keyword Search Title</label>
+          <input id="giphy-input" type="text" class="form-control" placeholder="Enter keyword to search" required>          
+        </div>
+        <button type="submit" class="btn btn-primary" id="find-giphy">Add Topic</button>
+      </form>      
+    </div>
+
+    <div id="giphy-view"></div>
+
+    <div id="results"></div>
+  </div>
+
+  
+</body>
+</html>
